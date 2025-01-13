@@ -44,7 +44,7 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hello, I'm Azman, a MERN Developer from India. I specialize in building
+        Hello, I am Azman, a MERN Developer from India. I specialize in building
         websites and applications with a focus on front-end development, while
         also enjoying back-end programming.
       </motion.p>
