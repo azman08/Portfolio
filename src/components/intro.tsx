@@ -23,7 +23,7 @@ export const Intro = () => {
           type: 'tween',
           duration: 0.2,
         }}
-        href="https://quiman.vercel.app/"
+        href="https://www.way2foods.in/"
         className="bg-muted rounded px-3 py-1 text-sm font-medium"
       >
         🚀
@@ -44,9 +44,12 @@ export const Intro = () => {
         }}
         className="text-muted-foreground max-w-lg"
       >
-        Hello, I am Azman, a MERN Developer from India. I specialize in building
-        websites and applications with a focus on front-end development, while
-        also enjoying back-end programming.
+        Hello, I’m <span className="font-semibold">Azman Ali</span>, a
+        <span className="font-semibold"> Next.js & MERN Stack Developer</span>{' '}
+        from India. I specialize in crafting modern, responsive websites and
+        applications with a strong focus on{' '}
+        <span className="font-semibold">front-end development</span>, while also
+        building robust <span className="font-semibold">back-end systems</span>.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}

@@ -25,25 +25,53 @@ export const links = [
 
 export const projectsData = [
   {
-    image: '/projects/T.svg',
-    title: 'TrailHive',
+    image: '/projects/W.png',
+    title: 'Way2Foods',
     description:
-      'Next-generation movie review app, where you can watch review and watch trailers from Youtube and get details too.',
-    technologies: ['React.js', 'Tailwind CSS', 'Swiper', 'Lottie-React'],
+      'A full-stack agri-commerce platform with secure role-based dashboards for Buyers, FPOs, APMCs, and Admins. Includes vendor/product approvals, analytics, user management, and real-time order tracking.',
+    technologies: [
+      'Next.js',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Tailwind CSS',
+      'JWT',
+      'Cloudinary',
+      'Nodemailer',
+    ],
     links: {
-      preview: 'https://trail-hive.vercel.app/',
-      github: 'https://github.com/azman08/TrailHive',
-      githubApi: 'https://api.github.com/repos/azman08/TrailHive',
+      preview: 'https://way2foods.in',
+      githubApi: 'https://api.github.com/repos/azman08/Way2Foods',
+    },
+  },
+  {
+    image: '/projects/K.png',
+    title: 'Karnataka Agribusiness',
+    description:
+      'B2B agri-tech platform connecting Vendors, Buyers, and Admins via role-based dashboards. Features include vendor product lifecycle management, buyer inquiries, analytics tracking, and secure JWT-based APIs.',
+    technologies: [
+      'React.js',
+      'Node.js',
+      'Express.js',
+      'MongoDB',
+      'Tailwind CSS',
+      'JWT',
+      'Chart.js',
+    ],
+    links: {
+      preview: 'https://karnatakaagribusiness.com',
+      githubApi: 'https://api.github.com/repos/azman08/KarnatakaAgribusiness',
     },
   },
   {
     image: '/projects/Q.png',
     title: 'Quiman',
-    description: 'E-Commerce UI',
+    description:
+      'A modern front-end E-Commerce UI designed to deliver an engaging shopping experience. Built with responsive layouts, smooth animations, and interactive components. Features include product listing pages, category filters, animated transitions, and a mobile-friendly design for seamless usability across devices.',
     technologies: [
       'React.js',
       'Tailwind CSS',
-      'Framer-Motion',
+      'Framer Motion',
       'Swiper',
       'Lottie-React',
     ],
@@ -53,33 +81,29 @@ export const projectsData = [
       githubApi: 'https://api.github.com/repos/azman08/Quiman',
     },
   },
-  {
-    image: '/projects/I.png',
-    title: 'IDE',
-    description: 'Personal IDE where you can practice HTML , CSS & Javascript',
-    technologies: ['React.js', 'Monaco-Editor', 'Tailwind CSS'],
-    links: {
-      preview: 'https://ide-sooty.vercel.app/',
-      github: 'https://github.com/azman08/IDE',
-      githubApi: 'https://api.github.com/repos/azman08/IDE',
-    },
-  },
 ] as const;
 
 export const experiencesData = [
   {
+    title: 'Web Development Intern - Full Stack Developer',
+    location: 'Way2Agribusiness India Pvt. Ltd., Bengaluru',
+    description:
+      'Built and deployed two production-grade agri-tech platforms (karnatakaagribusiness.com, way2foods.in) using Next.js, Node.js, Express, and MongoDB. Implemented JWT authentication, role-based dashboards, REST APIs, and integrated Cloudinary, Nodemailer, and Chart.js. Configured deployment pipelines on DigitalOcean with NGINX, PM2, and SSL. Delivered responsive, mobile-first UIs and collaborated in an Agile workflow using Git.',
+    date: 'Apr 2025 – Present',
+  },
+  {
     title: 'Remote Freelancing - Full Stack Developer',
     location: 'Global (Remote)',
     description:
-      'Since 2022, I have been working as a Full Stack Developer specializing in the MERN stack. I have successfully developed and deployed scalable web applications, managing both frontend and backend tasks. My expertise includes creating responsive interfaces with React, building APIs with Express and Node.js, and managing databases using MongoDB. I ensure high-quality deliverables, meeting client requirements while adhering to deadlines.',
-    date: '2022 - present',
+      'Developed and deployed scalable web applications for global clients using the MERN stack. Designed responsive frontends with React & Tailwind, built REST APIs with Express.js & Node.js, and optimized MongoDB databases. Delivered high-quality solutions tailored to client requirements while ensuring deadlines were met.',
+    date: '2022 – 2025',
   },
   {
     title: 'Graduation',
-    location: 'AKTU',
+    location: 'Dr. A. P. J. Abdul Kalam Technical University, Lucknow',
     description:
-      'Graduated in 2022 with a degree in Bachelor of Technology in Computer Science and Engineering. Built a strong foundation in full-stack web development, mastering modern technologies like  MERN Stack, JavaScript, React, and Node.js through academic projects and coursework.',
-    date: '2022',
+      'Graduated with a B.Tech in Computer Science & Engineering (2022). Built a strong foundation in full-stack web development, completing academic and personal projects using JavaScript, MERN stack, and modern frameworks like Next.js.',
+    date: '2018 – 2022',
   },
 ] as const;
 

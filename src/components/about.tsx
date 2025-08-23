@@ -21,25 +21,36 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4">
-          Hi, I’m Azman Ali, a passionate MERN Stack Developer from India. With
-          over two years of programming experience, I have immersed myself in
-          the world of coding since the start of my graduation. The
-          problem-solving process in programming excites me the most—there’s
-          nothing quite like the satisfaction of finding a solution to a
-          challenging problem. Throughout my journey, I have worked on various
-          projects, from personal initiatives to collaborative ventures, which
-          have sharpened my skills and provided me with valuable hands-on
-          experience. My core stack includes React.js, Next.js, JavaScript, and
-          MERN Stack, along with proficiency in TypeScript and Python. I am
-          committed to continuous learning and eager to adapt to new
-          technologies.
+          Hi, I’m <span className="font-semibold">Azman Ali</span>, a passionate
+          <span className="font-semibold">
+            {' '}
+            Full Stack Developer (MERN & Next.js)
+          </span>
+          from India. With over two years of hands-on experience, I’ve been
+          deeply engaged in building modern, scalable web applications since the
+          start of my graduation. What excites me most is the problem-solving
+          process in programming—the thrill of transforming complex challenges
+          into simple, elegant solutions. Over the years, I’ve worked on diverse
+          projects ranging from personal initiatives to production-level
+          platforms, sharpening my expertise in
+          <span className="font-semibold">
+            {' '}
+            React.js, Next.js, Node.js, and MongoDB
+          </span>
+          . I also bring strong proficiency in{'  '}
+          <span className="font-semibold">TypeScript </span>
+          and <span className="font-semibold">Python</span>, along with a
+          continuous drive to learn and adapt to emerging technologies. My goal
+          is to create impactful applications that not only function seamlessly
+          but also deliver excellent user experiences.
         </p>
+
         <p>
-          I am currently seeking job opportunities where I can contribute,
-          learn, and grow as a developer. If you have a role that aligns with my
-          skills and experience, please don’t hesitate to reach out—I’d love to
-          discuss how I can add value to your team and create something amazing
-          together!
+          I am actively seeking opportunities where I can contribute my
+          expertise, continue learning, and grow as a developer. If you’re
+          looking for someone who is passionate about building modern, scalable
+          applications and eager to take on new challenges, I’d be excited to
+          connect. Let’s create something impactful together!
         </p>
       </div>
       <Skills />
