@@ -85,11 +85,18 @@ export const projectsData = [
 
 export const experiencesData = [
   {
+    title: 'Associate Software Developer',
+    location: 'Anantanity IT Services Pvt Ltd',
+    description:
+      'Developed a real-time Cricket Scoring Engine powering a Mobile Cricket Scoring App. Built a full-stack match simulation system using Node.js, TypeScript, Express.js, MongoDB, Socket.io, and React Native. Implemented 40+ RESTful APIs with MVC architecture, middleware validation, and JWT-based role authorization, enabling ball-by-ball scoring, real-time match state synchronization, and seamless integration with CLI and mobile clients',
+    date: 'Nov 2025 – Present',
+  },
+  {
     title: 'Web Development Intern - Full Stack Developer',
     location: 'Way2Agribusiness India Pvt. Ltd., Bengaluru',
     description:
       'Built and deployed two production-grade agri-tech platforms (karnatakaagribusiness.com, way2foods.in) using Next.js, Node.js, Express, and MongoDB. Implemented JWT authentication, role-based dashboards, REST APIs, and integrated Cloudinary, Nodemailer, and Chart.js. Configured deployment pipelines on DigitalOcean with NGINX, PM2, and SSL. Delivered responsive, mobile-first UIs and collaborated in an Agile workflow using Git.',
-    date: 'Apr 2025 – Present',
+    date: 'Apr 2025 – Oct 2025',
   },
   {
     title: 'Remote Freelancing - Full Stack Developer',

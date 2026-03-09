@@ -26,7 +26,7 @@ export const About = () => {
             {' '}
             Full Stack Developer (MERN & Next.js)
           </span>
-          from India. With over two years of hands-on experience, I’ve been
+          from India. With over four years of hands-on experience, I’ve been
           deeply engaged in building modern, scalable web applications since the
           start of my graduation. What excites me most is the problem-solving
           process in programming—the thrill of transforming complex challenges
